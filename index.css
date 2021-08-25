@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+body{
+    background-color: rgba(255, 255, 255, 0.815);
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Reggae One', cursive;
+    font-size: 30px;
+    justify-content: center;
+}
+img{
+    width: 150px;
+}
+footer{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Noto Sans JP', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#rdc{
+    width: 150px;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    padding-top: 10px;
+}
+#padre{
+    background-color: rgb(145, 145, 145);
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+#hijo{
+    background-color: rgb(253, 253, 253);
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+#h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: rgba(255, 127, 80, 0.842);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 50px;
+}
+#Y_1{
+    width: 450px;
+}
+article{
+    padding: 1px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+}
+#h3{
+    font-family: 'Reggae One', cursive;
+    font-size: 30px;
+}
+#articletext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 100px;
+    padding-left: 100px;
+    background-color: lightgreen;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+#articleimg{
+    background-color: lightgreen;
+}
+#Presentación{
+    grid-area: presentación;
+}
+h3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: 20px;
+}
+#HiraganaTeoría{
+    grid-area: hiraganateoría;
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: 20px;
+}
+#Hiragana{
+    grid-area: hiragana;
+    font-family: 'Noto Sans JP', sans-serif;
+    padding-left: 50px;
+}
+aside{
+    margin: 50px;
+}
+#tarjeta{
+    grid-area: tarjeta;
+    font-family: 'Noto Sans JP', sans-serif;
+    width: 275px;
+    height: 405px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: aquamarine;
+    padding: 20px;
+}
+#Y_2{
+    width: 250px;
+}
+main{
+    display: grid;
+    grid-template-areas: 
+        'presentación presentación'
+        'hiraganateoría hiraganateoría'
+        'hiragana tarjeta'
+}
+table{
+    background-color: lightpink;
+    margin: 30px;
+}
+#ejemplo_trazos{
+    width: 250px;
+}
+#st{
+    color: lightpink;
+}
+
+
+
